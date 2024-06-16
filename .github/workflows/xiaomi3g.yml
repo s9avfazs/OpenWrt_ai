@@ -37,8 +37,8 @@ env:
   REPO_URL: hhttps://github.com/kiddin9/OpenWrt_x86-r2s-r4s-r5s-N1
   REPO_BRANCH: ipq60xx-devel_nss
   FEEDS_CONF: feeds.conf.default
-  CONFIG_FILE: ramips_mt7621/.config
-  DIY_P1_SH: ramips_mt7621/diy.sh
+  CONFIG_FILE: devices/ramips_mt7621/.config
+  DIY_P1_SH: devices/ramips_mt7621/diy.sh
   SSH_ACTIONS: false
   UPLOAD_FIRMWARE: true
   UPLOAD_RELEASE: true
